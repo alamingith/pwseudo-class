@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesudo Element</title>
+  <style>
+    h1::after{
+      content:'-Rajshahi';
+    }
+    h1::before{
+      content:'Country-';
+      color:red;
+      font-size:50px;
+    }
+    p::first-letter{
+      font-size:30px;
+    }
+    p::
+    span::first-line{
+      color:red;
+      font-size:3em;
+    }
+    ::selection{
+      color:blue;
+      background-color:red;
+    }
+    input::placeholder{
+      color:red;
+      font-size:35px;
+    }
+    ul{
+      display:flex;
+      gap:10px;
+      justify-content: right;
+
+    }
+    li{
+      list-style-type:none;
+      padding:10px;
+      border-radius:6px;
+      transition: 0.5s;
+    }
+    li:hover{
+      background-color:aqua;
+    }
+    a{
+      margin-right:20px;
+      text-decoration:none;
+      color:black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+ <header>
+  <nav>
+    <ul>
+      <li><a href="index.html">pseudo class</a></li>
+      <li><a href="positon.html">Css position</a></li>
+      <li><a href="pseudoElement.html">pseudo Element</a></li>
+      <li><a href="z.html">Z-index</a></li>
+    </ul>
+   
+  </nav>
+ </header>
+
+  <h1>Bangladesh</h1>
+  <h1>Bangladesh</h1>
+  <h1>Bangladesh</h1>
+  <h1>Bangladesh</h1>
+  <h1>Bangladesh</h1>
+  <h1>Bangladesh</h1>
+
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, ea? Aut natus eveniet voluptatem dolores voluptate soluta cupiditate reprehenderit aspernatur?</p>
+  <p>Tempora, maiores omnis magnam debitis ratione enim optio ad animi, ea perspiciatis cum doloribus vitae esse a, consequatur totam modi!</p>
+  <p>Eius dicta quae sed, doloribus sint voluptatum similique consectetur est at, ipsam quisquam tempore a eveniet quas, nulla illo error?</p>
+
+
+  <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum laborum laudantium ex quisquam ipsam! Eum iure, laborum molestiae ad ducimus assumenda beatae mollitia voluptatum veritatis deserunt quo unde totam doloremque quae necessitatibus! Aperiam nihil, accusamus ipsa est voluptate ullam aliquam dicta, maxime in quas modi deleniti, itaque dolor aliquid ducimus perspiciatis porro nemo ab? Repellat accusantium corporis dicta! Doloribus beatae sed rerum harum nulla, incidunt officia excepturi alias assumenda iste quibusdam atque vitae reiciendis, recusandae libero qui eligendi tenetur aliquid amet, sit odio. Commodi rem mollitia beatae dolorem repudiandae enim, iusto inventore, eveniet suscipit incidunt iste praesentium, saepe laboriosam voluptate.</span>
+
+  <div class="">
+    <input type="text" placeholder="Enter About Yours">
+  </div>
+</body>
+</html>

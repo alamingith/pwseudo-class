@@ -1,0 +1,59 @@
+.box{
+  border:2px dotted red;
+  width:200px;
+}
+
+/* .swim-container{
+  position:relative;
+  border:2px solid yellow;
+
+} */
+/* 
+.ring{
+  position:absolute; 
+  top:0px;
+  right:50px;
+  
+} */
+ .another{
+  border:1px solid green;
+  width:300px ;
+  
+ }
+.ring{
+  position:sticky;
+  top:0px;
+ }
+/* 
+ .ring{
+  position:fixed;
+  top:0px;
+  left:300px;
+ } */
+ .dammi{
+  border:1px solid tomato;
+  width:200px ;
+  height:200px;
+ }
+    ul{
+      display:flex;
+      gap:10px;
+      justify-content: right;
+
+    }
+    li{
+      list-style-type:none;
+      padding:10px;
+      border-radius:6px;
+      transition: 0.5s;
+    }
+    li:hover{
+      background-color:aqua;
+    }
+    a{
+      margin-right:20px;
+      text-decoration:none;
+      color:black;
+      font-weight: bold;
+      cursor: pointer;
+    }

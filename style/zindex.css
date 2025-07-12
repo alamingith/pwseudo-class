@@ -1,0 +1,37 @@
+.box{
+  position:relative;
+}
+.ring{
+  top:-66px;
+  z-index:3;
+}
+.boy{
+  z-index:5;
+}
+
+.water{
+  top:-150px;
+  /* z-index:6; */
+}
+ ul{
+      display:flex;
+      gap:10px;
+      justify-content: right;
+
+    }
+    li{
+      list-style-type:none;
+      padding:10px;
+      border-radius:6px;
+      transition: 0.5s;
+    }
+    li:hover{
+      background-color:aqua;
+    }
+    a{
+      margin-right:20px;
+      text-decoration:none;
+      color:black;
+      font-weight: bold;
+      cursor: pointer;
+    }

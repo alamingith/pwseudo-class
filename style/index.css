@@ -1,0 +1,49 @@
+h6:hover{
+  color:red;
+  /* font-size:20px; */
+}
+input:focus{
+  color:purple;
+  border:1px solid red;
+  outline:0;
+
+}
+a{
+  color:#1A0DAB;
+}
+a:visited{
+  color:#681DA8;
+}
+/* 
+li:first-child{
+  color:red;
+}
+li:last-child{
+  color:red;
+} */
+ li:nth-child(5){
+  color:purple;
+ }
+ 
+    ul{
+      display:flex;
+      gap:10px;
+      justify-content: right;
+
+    }
+    li{
+      list-style-type:none;
+      padding:10px;
+      border-radius:6px;
+      transition: 0.5s;
+    }
+    li:hover{
+      background-color:aqua;
+    }
+    a{
+      margin-right:20px;
+      text-decoration:none;
+      color:black;
+      font-weight: bold;
+      cursor: pointer;
+    }
